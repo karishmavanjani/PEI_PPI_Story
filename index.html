@@ -17,6 +17,7 @@
         padding: 18px;
         width: 40%;
         border: 1px;
+        vertical-align: middle;
         text-align: center;
         outline: none;
         font-size: 15px;
@@ -30,7 +31,7 @@
     .active,
     .accordion:hover {
 
-        background-color: #78B045;
+        background-color: #F28705;
 
 
     }
@@ -61,90 +62,82 @@
         width: 100%;
         padding: 0 5px;
         font-style: italic;
+        text-align: center;
     }
     </style>
 </head>
 
 <body>
-    <div style="width: 50%;float:left">
-        <p>Click to see investment details</p>
+    <!-- <p>Click to see investment details</p> -->
+    <div style="width: 50%;  float: left;  ">
         <button class=" accordion"> Expedia </button>
         <div class="panel">
-            <ul>
+            <ul style="margin-right: 10px; margin-left:-10px ">
                 <li> Deal Value: $1.2 billion </li>
-                <li> Investor: Silver Lake and Apollo Management</li>
+                <li> Investor: Silver Lake Partners and Apollo Management</li>
                 <li> Close Date: 05/05/2020</li>
             </ul>
         </div>
         <button class="accordion">Twitter</button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $1 billion </li>
+                <li> Investor: Silver Lake Partners and Elliott Management</li>
+                <li> Close Date: 03/09/2020</li>
             </ul>
         </div>
         <button class="accordion">Eventbrite</button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $225 million </li>
+                <li> Investor: Francisco Partners LP</li>
+                <li> Close Date: 05/11/2020</li>
             </ul>
         </div>
-        <button class="accordion">Cheesecake Factory</button>
+        <button class="accordion">Cheesecake Factory
+            Restaurants</button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
-            </ul>
-        </div>
-        <button class="accordion">Norweigan</button>
-        <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $200 million </li>
+                <li> Investor: Roark Capital Group</li>
+                <li> Close Date: 04/20/2020</li>
             </ul>
         </div>
     </div>
-    <div style="width: 50%;float: right;">
-        <p>Click to see investment details</p>
+    <div style="width:50%; float: right; ">
         <button class="accordion">US Foods</button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $500 million </li>
+                <li> Investor: KKR</li>
+                <li> Close Date: 04/21/2020</li>
             </ul>
         </div>
-        <button class="accordion">Coty</button>
+        <button class="accordion">Digital Landscape Group</button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $100 million </li>
+                <li> Investor: Centerbridge Partners</li>
+                <li> Close Date: 10/02/2020</li>
             </ul>
         </div>
-        <button class="accordion">Wayfair</button>
+        <button class="accordion">Evo Payments International</button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $150 million </li>
+                <li> Investor: Madison Dearborn Partners </li>
+                <li> Close Date: 01/07/2020</li>
             </ul>
         </div>
-        <button class="accordion">temp</button>
+        <button class="accordion">Liberty TripAdvisor Holdings </button>
         <div class="panel">
-            <ul>
-                <li> $1.2 billion</li>
-                <li>Silver Lake and Apollo Management</li>
+            <ul style="margin-right: 10px; margin-left:-10px;">
+                <li> Deal Value: $325 million </li>
+                <li> Investor: Certares Management </li>
+                <li> Close Date: 03/16/2020</li>
             </ul>
         </div>
     </div>
-    <!-- <div style="width: 50%;float:right">
-    <p>Click to see investment details</p>
-    <button class=" accordion"> Expedia</button>
-    <div class="panel">
-        <ul>
-            <li> $1.2 billion</li>
-            <li>Silver Lake and Apollo Management</li>
-        </ul>
-    </div> -->
     <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
